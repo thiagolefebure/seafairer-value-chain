@@ -166,7 +166,7 @@ The `dashboard/` folder contains a React application with four panels:
 - **Monte Carlo** — LCOF distribution histogram, cost–GHG trade-off scatter
 - **Life-Cycle** — LCA radar chart, GHG pathway vs IMO targets
 
-→ **[Open live demo](https://your-vercel-url.vercel.app)**
+→ **[Open live demo](https://seafairer-value-chain.vercel.app/)**
 
 ---
 
