@@ -1,0 +1,11 @@
+feedstock_type,region,cost_eur_per_t,availability_kt_yr,moisture_pct,energy_content_gj_per_t,ghg_factor_kgco2_per_t,source
+agricultural_residue_straw,Northern_Europe,55,12000,15,14.5,4.2,ENTSOG_2023
+agricultural_residue_straw,Eastern_Europe,42,18000,18,13.8,4.5,ENTSOG_2023
+forestry_residue_chips,Scandinavia,68,8500,35,10.2,3.8,EEA_2023
+forestry_residue_chips,Baltic_States,58,6200,38,9.8,4.0,EEA_2023
+energy_crop_miscanthus,Northern_Europe,95,3200,12,17.2,8.2,JRC_2022
+energy_crop_switchgrass,Eastern_Europe,82,4100,14,16.8,9.1,JRC_2022
+municipal_solid_waste,Western_Europe,28,22000,25,8.5,2.1,Eurostat_2023
+sewage_sludge,Western_Europe,15,5500,72,4.2,6.8,Eurostat_2023
+used_cooking_oil,Europe,620,1200,2,34.5,15.2,USDA_2023
+tallow_animal_fat,Europe,540,800,1,35.2,18.4,USDA_2023

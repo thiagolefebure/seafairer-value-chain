@@ -1,0 +1,24 @@
+stage,process,ghg_factor_gco2eq_mj,uncertainty_pct,methodology,notes
+cultivation,fertiliser_production,1.8,15,IPCC_AR6,N2O emissions included
+cultivation,field_operations,0.9,20,IPCC_AR6,Diesel combustion
+cultivation,n2o_field_emissions,1.5,35,IPCC_AR6,Soil N2O highly variable
+transport,road_120km,1.2,10,ecoinvent_3.9,Euro VI truck
+transport,road_300km,2.8,10,ecoinvent_3.9,Euro VI truck
+transport,inland_waterway,0.6,12,ecoinvent_3.9,Barge transport
+preprocessing,drying_natural,0.4,15,ecoinvent_3.9,Solar/ambient drying
+preprocessing,drying_thermal,2.8,12,ecoinvent_3.9,Natural gas dryer
+preprocessing,size_reduction,0.7,10,ecoinvent_3.9,Hammer mill
+conversion,pyrolysis_heat,4.2,18,JRC_2022,Process heat from residues
+conversion,pyrolysis_electricity,2.1,12,ecoinvent_3.9,EU grid mix 2023
+conversion,hydrotreatment_h2_smr,9.2,15,ecoinvent_3.9,Grey hydrogen
+conversion,hydrotreatment_h2_elec_grid,5.4,20,ecoinvent_3.9,Grid electrolysis
+conversion,hydrotreatment_h2_elec_renew,0.4,25,ecoinvent_3.9,Green hydrogen
+distribution,port_logistics,0.8,10,ecoinvent_3.9,
+distribution,bunkering_losses,0.3,20,IMO_2020,Methane slip negligible for bio
+combustion,co2_biogenic,-28.5,8,IPCC_AR6,Biogenic carbon credit
+combustion,residual_ghg,4.5,10,IMO_2020,Non-biogenic fraction
+credits,biochar_soil,-5.2,30,EBI_2022,100-yr permanence assumed
+credits,process_heat_export,-2.1,20,ecoinvent_3.9,Displaces natural gas
+reference_fossil,hfo_ctw,91.0,5,FuelEU_Maritime,Cradle-to-wake
+reference_fossil,vlsfo_ctw,87.0,5,FuelEU_Maritime,Cradle-to-wake
+reference_fossil,lng_ctw,75.0,8,FuelEU_Maritime,Includes methane slip
